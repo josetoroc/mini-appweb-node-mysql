@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="es">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Login simple</title>
+<link rel="stylesheet" href="styles.css">
+<body>
+  <div class="card" id="login">
+    <h1>Iniciar sesión</h1>
+    <label>Email</label>
+    <input id="email" type="email" placeholder="tu@correo.com" required>
+    <label>Contraseña</label>
+    <input id="password" type="password" placeholder="••••••••" required>
+    <button id="btnLogin">Entrar</button>
+    <p class="error" id="err" hidden></p>
+  </div>
+
+  <div class="card" id="welcome" hidden>
+    <h1 id="title"></h1>
+    <button id="btnLogout" class="muted">Salir</button>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
