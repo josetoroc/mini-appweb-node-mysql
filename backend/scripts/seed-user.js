@@ -24,8 +24,8 @@ require("dotenv").config();
     )
   `);
 
-  const email = "demo@example.com";
-  const name = "Usuario Demo";
+  const email = "jose.toro.c@gmail.com";
+  const name = "Jose Toro";
   const plain = "Demo1234!";
   const hash = await bcrypt.hash(plain, 10);
 
